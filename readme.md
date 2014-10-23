@@ -23,6 +23,7 @@ any dependencies.
     }
 
 `/bower.json`
+----------
 
 Add `bower.json` to the root of your Rails app.  This will include your CLAF
 dependencies.
@@ -36,6 +37,7 @@ dependencies.
     }
 
 `/config/application.rb`
+----------
 
 Modify `application.rb` to include the `bower` installed components.  This will
 append the `bower` directory to our assets pipeline.
@@ -54,6 +56,7 @@ append the `bower` directory to our assets pipeline.
     end
 
 `/app/assets/application.css`
+----------
 
 Modify `application.css` to include our CLAF `less` file.  Given that our CLAF
 is the root dependency for everything else we do, make sure it goes first.
