@@ -1,0 +1,7 @@
+{
+  "name": "share-rails",
+  "private": true,
+  "dependencies": {
+    "claf": "https://github.com/wwvuillemot/ShareCLAF.git"
+  }
+}
