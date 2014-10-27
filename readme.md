@@ -61,6 +61,7 @@ append the `bower` directory to our assets pipeline.
 Modify `application.css` to include our CLAF `less` file.  Given that our CLAF
 is the root dependency for everything else we do, make sure it goes first.
 
+    *= require 'bootstrap'
     *= require 'claf'
     *= require_self
     *= require_tree .
